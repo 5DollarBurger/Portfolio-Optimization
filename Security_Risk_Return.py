@@ -13,6 +13,8 @@ hp = 5 # holding period (years)
 import datetime as dt
 import matplotlib.pyplot as plt
 from matplotlib import style
+from pandas.plotting import register_matplotlib_converters
+register_matplotlib_converters()
 import numpy as np
 import pandas as pd
 import pandas_datareader.data as web
